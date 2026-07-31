@@ -4,9 +4,9 @@ import "./index.css";
 const profile = {
   name: "Sushil Saladi",
   title: "Full Stack Developer",
-  eyebrow: "OPEN TO SENIOR ROLES · JAVA + REACT",
+  eyebrow: "OPEN TO SENIOR/LEAD ROLES · JAVA + REACT",
   lede:
-    "Full stack developer with 7+ years shipping production software across fintech, sports tech, and enterprise platforms — from Spring Boot microservices to React interfaces used by real trading desks.",
+    "Senior Software Engineer with over 7 years of experience in developing responsive web applications and optimizing backend services, expert in React and Spring Boot. Key achievements include an 80% improvement in user satisfaction through innovative UI application design, and a 70% reduction in application load times using WebSockets.",
   about:
     "I'm an accomplished full stack web developer with over seven years of experience designing and building web applications across front-end and back-end technologies. My work spans reusable React UI systems, secure Spring Boot microservices, and high-performance trading interfaces — with a track record of leading teams, optimizing performance, and running effective Agile practices. Currently Lead Engineer at Academian, building enterprise web applications with a strong focus on accessibility and API security.",
   location: "Hyderabad, India",
@@ -266,7 +266,7 @@ export default function Portfolio() {
             <a href="#experience">Experience</a>
             <a href="#skills">Skills</a>
             <a href="#education">Education</a>
-            <a href="#contact">Contacts</a>
+            <a href="#contact">Contact</a>
           </div>
         </div>
       </nav>
@@ -279,7 +279,7 @@ export default function Portfolio() {
               {profile.eyebrow}
             </div>
             <h1>
-              {profile.name} builds <em>scalable</em> full-stack systems, end to end.
+              {profile.name} builds <br/> <em> <span className="typewriter-text"></span></em> full-stack systems, end to end.
             </h1>
             <p className="lede">{profile.lede}</p>
             <div className="hero-cta">

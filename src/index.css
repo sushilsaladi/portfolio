@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
+*{
+    margin : 0;
+    padding : 0;
+}
+
 .page {
   --bg: #0B0F14;
   --panel: #10151C;
@@ -176,4 +181,38 @@ footer { border-top: 1px solid var(--border); padding: 56px 0 34px; margin-top: 
 section {
   margin-bottom: 52px;
   scroll-margin-top: 80px;
+}
+
+.typewriter-text::before {
+  content: "Robust"; /* Initial word */
+  animation: typing 9s steps(10) infinite;
+  border-right: 3px solid #3498db; /* The blinking cursor */
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  padding-right: 4px;
+}
+
+@keyframes typing {
+  /* Word 1: scalable (8 characters) */
+  0%, 28% {
+    content: "scalable";
+    width: 8ch; 
+  }
+  32%, 35% { width: 0; }
+
+  /* Word 2: secure (6 characters) */
+  40%, 62% {
+    content: "secure";
+    width: 6ch;
+  }
+  66%, 69% { width: 0; }
+
+  /* Word 3: robust (6 characters) */
+  74%, 93% {
+    content: "robust";
+    width: 6ch;
+  }
+  97%, 100% { width: 0; }
 }
