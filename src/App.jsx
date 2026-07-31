@@ -279,11 +279,11 @@ export default function Portfolio() {
             saladi<span>.</span>dev
           </div>
           <div className="nav-links">
-            <a href="#about">about</a>
-            <a href="#experience">experience</a>
-            <a href="#skills">skills</a>
-            <a href="#education">education</a>
-            <a href="#contact">contact</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
           </div>
         </div>
       </nav>
@@ -336,7 +336,7 @@ export default function Portfolio() {
         </section>
 
         <section id="experience" className="tag-group">
-          <TagHeader title="experience" desc="Employment history, most recent first" />
+          <TagHeader title="Experience" desc="Employment history, most recent first" />
           {experience.map((e, idx) => (
             <OpBlock
               key={e.path}
@@ -373,7 +373,7 @@ export default function Portfolio() {
         </section>
 
         <section id="skills" className="tag-group">
-          <TagHeader title="skills" desc="Available technology parameters" />
+          <TagHeader title="Skills" desc="Available technology parameters" />
           {skillGroups.map((g) => (
             <OpBlock key={g.path} method="GET" path={g.path} summary={g.label}>
               <div className="chip-row">
@@ -395,7 +395,7 @@ export default function Portfolio() {
         </section>
 
         <section id="education" className="tag-group">
-          <TagHeader title="education" desc="Academic records" />
+          <TagHeader title="Education" desc="Academic records" />
           {education.map((ed) => (
             <OpBlock
               key={ed.path}
@@ -413,7 +413,7 @@ export default function Portfolio() {
         </section>
 
         <section id="contact" className="tag-group">
-          <TagHeader title="contact" desc="Reach out — mutating endpoint, use responsibly" />
+          <TagHeader title="Contact" desc="Reach out — mutating endpoint, use responsibly" />
           <OpBlock method="POST" path="/contact" summary="Send a message to Sushil" defaultOpen>
             <p className="op-desc-p">
               Reach out about senior software developer opportunities (Java backend + React
