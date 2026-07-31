@@ -266,7 +266,7 @@ export default function Portfolio() {
             <a href="#experience">Experience</a>
             <a href="#skills">Skills</a>
             <a href="#education">Education</a>
-            <a href="#contact">Contact1111</a>
+            <a href="#contact">Contacts</a>
           </div>
         </div>
       </nav>
