@@ -7,5 +7,5 @@ import react from "@vitejs/plugin-react";
 // project repo, set base: '/' instead.
 export default defineConfig({
   plugins: [react()],
-  base: "/saladi-portfolio/",
+  base: "/",
 });
